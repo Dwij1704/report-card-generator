@@ -1,0 +1,941 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:700,400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+.bg {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bg .overlap-wrapper {
+  width: 595.28px;
+  height: 841.89px;
+}
+
+.bg .overlap {
+  position: relative;
+  width: 595px;
+  height: 842px;
+}
+
+.bg .group {
+  position: absolute;
+  width: 595px;
+  height: 842px;
+  top: 0;
+  left: 0;
+  /* background-image: url(./img/rectangle-1.svg); */
+  background-size: 100% 100%;
+}
+
+.bg .overlap-group {
+  position: relative;
+  width: 569px;
+  height: 816px;
+  top: 13px;
+  left: 13px;
+  /* background-image: url(./img/rectangle-2.svg); */
+  background-size: 100% 100%;
+}
+
+.bg .rectangle {
+  position: absolute;
+  width: 559px;
+  height: 806px;
+  top: 5px;
+  left: 5px;
+}
+
+.bg .report-card {
+  position: absolute;
+  width: 502px;
+  height: 619px;
+  top: 108px;
+  left: 34px;
+  overflow: hidden;
+}
+
+.bg .div {
+  position: relative;
+  width: 554px;
+  height: 621px;
+  top: -2px;
+}
+
+.bg .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-2 {
+  position: absolute;
+  top: 29px;
+  left: 200px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #4b63ac;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-3 {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-4 {
+  position: absolute;
+  top: 62px;
+  left: 61px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-5 {
+  top: 62px;
+  left: 48px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-6 {
+  top: 102px;
+  left: 48px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-7 {
+  top: 147px;
+  left: 48px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .line {
+  width: 282px;
+  top: 80px;
+  left: 61px;  
+  background-color: #000000;
+  object-fit: cover;
+  position: absolute;
+  height: 1px;
+}
+
+.bg .text-wrapper-8 {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-9 {
+  position: absolute;
+  top: 102px;
+  left: 61px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .img {
+  background-color: black;
+  width: 442px;
+  top: 119px;
+  left: 61px;
+  object-fit: cover;
+  position: absolute;
+  height: 1px;
+}
+
+.bg .text-wrapper-10 {
+  position: absolute;
+  top: 147px;
+  left: 0;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-11 {
+  position: absolute;
+  top: 147px;
+  left: 61px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .line-2 {
+  width: 150px;
+  background-color: #000000;
+  top: 165px;
+  left: 61px;
+  position: absolute;
+  height: 1px;
+}
+
+.bg .text-wrapper-12 {
+  top: 147px;
+  left: 301px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-13 {
+  position: absolute;
+  top: 147px;
+  left: 262px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-14 {
+  position: absolute;
+  top: 147px;
+  left: 313px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .line-3 {
+  width: 190px;
+  top: 165px;
+  background-color: #000000;
+  left: 312px;
+  object-fit: cover;
+  position: absolute;
+  height: 1px;
+}
+
+.bg .text-wrapper-15 {
+  position: absolute;
+  top: 62px;
+  left: 372px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-16 {
+  position: absolute;
+  top: 62px;
+  left: 426px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-17 {
+  top: 62px;
+  left: 414px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .line-4 {
+  width: 77px;
+  background-color: #000000;
+  top: 80px;
+  left: 425px;
+  object-fit: cover;
+  position: absolute;
+  height: 1px;
+}
+
+.bg .we-appreciate-your {
+  position: absolute;
+  width: 507px;
+  height: 72px;
+  top: 183px;
+  left: 0;
+}
+
+.bg .p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-18 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-19 {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-20 {
+  position: absolute;
+  top: 43px;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-21 {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .group-2 {
+  position: absolute;
+  width: 202px;
+  height: 24px;
+  top: 270px;
+  left: 151px;
+}
+
+.bg .text-wrapper-22 {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .overlap-group-wrapper {
+  position: absolute;
+  width: 54px;
+  height: 24px;
+  top: 0;
+  left: 148px;
+}
+
+.bg .div-wrapper {
+  position: relative;
+  width: 52px;
+  height: 24px;
+  /* background-image: url(./img/rectangle-14.svg); */
+  background-size: 100% 100%;
+}
+
+.bg .text-wrapper-23 {
+  top: 5px;
+  left: 15px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .overlap-2 {
+  position: absolute;
+  width: 502px;
+  height: 161px;
+  top: 459px;
+  left: 0;
+  /* background-image: url(./img/rectangle-15.svg); */
+  background-size: 100% 100%;
+}
+
+.bg .text-wrapper-24 {
+  position: absolute;
+  top: 5px;
+  left: 202px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.bg .text-wrapper-24-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.bg .text-wrapper-25 {
+  position: absolute;
+  top: 137px;
+  left: 42px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-26 {
+  position: absolute;
+  top: 137px;
+  left: 145px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-27 {
+  position: absolute;
+  top: 137px;
+  left: 262px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-28 {
+  position: absolute;
+  top: 137px;
+  left: 371px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .graph-computer {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 81px;
+  left: 59px;
+}
+
+.bg .overlap-3 {
+  position: relative;
+  width: 53px;
+  height: 53px;
+}
+
+.bg .text-wrapper-29 {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .path {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.bg .graph-analytical {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 81px;
+  left: 169px;
+}
+
+.bg .graph-spatial {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 81px;
+  left: 279px;
+}
+
+.bg .graph-logical {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 81px;
+  left: 389px;
+}
+
+.bg .this-section {
+  position: absolute;
+  width: 460px;
+  height: 40px;
+  top: 31px;
+  left: 24px;
+}
+
+.bg .text-wrapper-30 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-31 {
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-32 {
+  position: absolute;
+  top: 29px;
+  left: 72px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .overlap-4 {
+  position: absolute;
+  width: 502px;
+  height: 152px;
+  top: 307px;
+  left: 0;
+  /* background-image: url(./img/rectangle-16.svg); */
+  background-size: 100% 100%;
+}
+
+.bg .text-wrapper-33 {
+  position: absolute;
+  top: 9px;
+  left: 144px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-34 {
+  position: absolute;
+  top: 129px;
+  left: 117px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-35 {
+  position: absolute;
+  top: 129px;
+  left: 206px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .text-wrapper-36 {
+  position: absolute;
+  top: 129px;
+  left: 309px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .graph-hard-questions {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 73px;
+  left: 320px;
+}
+
+.bg .graph-medium-questions {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 73px;
+  left: 224px;
+}
+
+.bg .graph-easy-questions {
+  position: absolute;
+  width: 55px;
+  height: 53px;
+  top: 73px;
+  left: 128px;
+}
+
+.bg .this-graph-provides {
+  position: absolute;
+  width: 445px;
+  height: 25px;
+  top: 35px;
+  left: 30px;
+}
+
+.bg .text-wrapper-37 {
+  position: absolute;
+  top: 14px;
+  left: 5px;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .logo-ph-footer {
+  position: absolute;
+  width: 155px;
+  height: 16px;
+  top: 755px;
+  left: 208px;
+  overflow: hidden;
+}
+
+.bg .logo-PH-footer {
+  position: relative;
+  width: 156px;
+  height: 16px;
+  left: 1px;
+}
+
+.bg .text-wrapper-38 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #86817b;
+  font-size: 10.8px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .group-3 {
+  position: absolute;
+  width: 90px;
+  height: 16px;
+  top: 0;
+  left: 64px;
+}
+
+.bg .logo-ai-m-inds {
+  position: absolute;
+  width: 159px;
+  height: 57px;
+  top: 37px;
+  left: 47px;
+  overflow: hidden;
+}
+
+.bg .logo-AI-minds {
+  position: relative;
+  width: 160px;
+  height: 55px;
+  left: 1px;
+}
+
+.bg .overlap-group-2 {
+  position: absolute;
+  width: 158px;
+  height: 41px;
+  top: 0;
+  left: 0;
+}
+
+.bg .group-4 {
+  position: absolute;
+  width: 158px;
+  height: 23px;
+  top: 18px;
+  left: 0;
+}
+
+.bg .group-5 {
+  position: absolute;
+  width: 27px;
+  height: 28px;
+  top: 0;
+  left: 64px;
+}
+
+.bg .e-ICT-academy-by-IIT {
+  position: absolute;
+  top: 44px;
+  left: 0;
+  font-family: "Arial-Narrow", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.bg .logo-ict-academy {
+  position: absolute;
+  width: 86px;
+  height: 73px;
+  top: 30px;
+  left: 276px;
+  object-fit: cover;
+}
+
+.bg .logo-iit-k {
+  position: absolute;
+  width: 81px;
+  height: 81px;
+  top: 24px;
+  left: 383px;
+}
+
+.bg .logo-meit-y {
+  position: absolute;
+  width: 58px;
+  height: 78px;
+  top: 28px;
+  left: 492px;
+  overflow: hidden;
+}
+
+.bg .logo-meity {
+  position: relative;
+  width: 65px;
+  height: 78px;
+}
+
+.bg .group-6 {
+  position: absolute;
+  width: 38px;
+  height: 60px;
+  top: 0;
+  left: 10px;
+}
+
+.bg .group-7 {
+  position: absolute;
+  width: 69px;
+  height: 17px;
+  top: 61px;
+  left: 0;
+}
+
+.bg .overlap-group-3 {
+  position: relative;
+  width: 65px;
+  height: 17px;
+}
+
+.bg .text-wrapper-39 {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 7.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bg .text-wrapper-40 {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
